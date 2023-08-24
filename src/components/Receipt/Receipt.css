@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-box {
+  font-size: 12px;
+  border: solid #dddd 1px;
+  padding: 0px 14px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers-container {
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-btn {
+  background-color: #009879;
+  width: 100px;
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  color: #ffff;
+}
